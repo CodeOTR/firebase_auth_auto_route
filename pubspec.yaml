@@ -1,0 +1,26 @@
+name: firebase_auth_auto_route
+description: An auto_route module for firebase_auth_ui
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_route: ^7.7.1
+  firebase_auth: ^4.7.1
+  firebase_ui_auth: ^1.6.1
+
+# build command
+# flutter pub run build_runner build --delete-conflicting-outputs
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^7.2.0
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.0
+
+flutter:
